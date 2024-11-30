@@ -1,37 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafío 1 - JavaScript</title>
-    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Desafio II de Javascript - Condiciones</title>
 </head>
-
 <body>
 
-    <section>
-        <div class="card">
-            <div class="img-card"></div>
-            <h6>Laptop Gamer AMD</h6>
-            <p>Precio base: $<span id="precio-inicial"></span> </p>
+    <section class="container">
 
-            <p>Cantidad:
-                <span id="cantidad">0</span>
-                <button id = 'mas'>+</button>
-                <button id = 'menos'>-</button>
-            </p>
+        <header class="box_1">
+            <h1>Stickers de Flores</h1>
+        </header>
+
+        <div class="box_2">
+            <img src="./assets/img/5.png" id="imagen5" class="img_5" alt="imagen">
+        </div>
+        <hr>
+
+
+        <div id="stickers" class="box_3">
+            <div class="div_stickers">
+                <div class="sticker_box">
+                    <div class="box_img_sticker">
+                        <img src="./assets/img/1.png" class="img_1" alt="sticker1">
+                    </div>
+                    <div class="div_input">
+                        <input type="number" class="input_custom" id="input1" placeholder="Cantidad">
+                    </div>
+                </div>
+                <div class="sticker_box">
+                    <div class="box_img_sticker">
+                        <img src="./assets/img/2.png" class="img_2" alt="sticker2">
+                    </div>
+                    <div class="div_input">
+                        <input type="number" class="input_custom" id="input2" placeholder="Cantidad">
+                    </div>
+                </div>
+                <div class="sticker_box">
+                    <div class="box_img_sticker">
+                        <img src="./assets/img/3.png" class="img_3" alt="sticker3">
+                    </div>
+                    <div class="div_input">
+                        <input type="number" class="input_custom" id="input3" placeholder="Cantidad">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p id="msj" class="text_msj"></p>
+            </div>
+            <div>
+                <button class="btn_1"> Validar </button>
+            </div>
         </div>
 
-        </div>
+        <hr>
+
+        <section class="passContainer">
+            <div class ="box">
+                <h2>Ingrese su clave</h2>
+            </div>
+            <div>
+                <section class= "select">
+                    <select id= "primero">                    
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select id= "segundo">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select id= "tercero">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div>
+                <p id='msj2' class="text_msj2"></p>
+            </div>
+            <div class="boton_box">
+                <button class="btn_2">Ingresar</button>
+            </div>
+        </section>
+
     </section>
-
-    <div class="total-section">
-        <p>Total a pagar: $<span id="valor-total"></span> </p>
-    </div>
-
-    <script src="./assets/script/script.js"> </script>
+    <script src="./assets/script/script.js"></script>
 </body>
-
 </html>
