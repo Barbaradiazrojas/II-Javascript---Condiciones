@@ -44,10 +44,9 @@ h1 {
 
 /* Estilo actualizado para .img_5 */
 .img_5 {
-    width: 150px; /* Ajusta el tamaño según necesidad */
+    width: 300px; /* Ajusta el tamaño de la imagen */
     height: auto;
-    object-fit: contain;
-    margin: 10px 0;
+    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
 }
 
 /* Caso 2 */
